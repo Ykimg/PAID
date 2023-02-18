@@ -51,7 +51,7 @@ def main_apv():
         time.sleep(3.5)
         tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
         os.system('am start https://wa.me/+923151112743?text=' + tks)
-    r1=requests.get("https://raw.githubusercontent.com/Ykimg/PAID/main/Approval.txt").text
+    r1=requests.get("https://github.com/Ykimg/PAID/blob/main/Approval.txt").text
     if key1 in r1:
         o()
     else:
